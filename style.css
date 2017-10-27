@@ -1,0 +1,73 @@
+html {
+    height: 100%;
+    display: table;
+    margin: auto;
+}
+body{
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+    background: #2c3e50; /*https://flatuicolors.com*/
+    color: #ecf0f1;
+    font-family: 'noway_roundregular';
+}
+.title{
+    width: 100%;
+    font-size: 50px;
+}
+.extra{
+    font-weight: bold;
+    font-size:200px;
+}
+.inv{
+	display:block;float:right;
+-moz-transform: scale(-1, 1);
+-webkit-transform: scale(-1, 1);
+-o-transform: scale(-1, 1);
+-ms-transform: scale(-1, 1);
+transform: scale(-1, 1);
+
+}
+<!--
+/* @group Blink */
+.blink {
+	-webkit-animation: blink 0.75s linear infinite;
+	-moz-animation: blink 0.75s linear infinite;
+	-ms-animation: blink 0.75s linear infinite;
+	-o-animation: blink 0.75s linear infinite;
+	 animation: blink 0.75s linear infinite;
+}
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+/* @end */
+-->
+

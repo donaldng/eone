@@ -1,4 +1,5 @@
 html {
+    cursor: default !important;
     height: 100%;
     display: table;
     margin: auto;
@@ -21,14 +22,31 @@ body{
     font-size:200px;
 }
 .inv{
-	display:block;float:right;
--moz-transform: scale(-1, 1);
--webkit-transform: scale(-1, 1);
--o-transform: scale(-1, 1);
--ms-transform: scale(-1, 1);
-transform: scale(-1, 1);
-
+    display:block;float:right;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
 }
+.social{
+    font-size: 25px;
+}
+
+.divider{
+    margin-left:25px;
+    margin-right:25px;
+}
+
+p{
+    margin:10px 0px 30px;
+    padding:0;
+}
+
+a{
+    color: #ecf0f1 !important;
+}
+
 <!--
 /* @group Blink */
 .blink {
